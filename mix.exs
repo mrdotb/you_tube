@@ -41,7 +41,7 @@ defmodule GoogleApi.YouTube.Mixfile do
   defp deps() do
     [
       # {:google_gax, "~> 0.4"},
-      {:google_gax, path: "/home/john/Projects/gax"},
+      {:google_gax, github: "mrdotb/gax"},
 
       {:ex_doc, "~> 0.16", only: :dev}
     ]
